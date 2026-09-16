@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fall Alert — Tan Boon Huat</title>
+  <meta name="description" content="Emergency contact information for Tan Boon Huat, shown after a fall-detection wearable alert.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="alert-banner" role="alert">
+    <div class="alert-content">
+      <span class="alert-icon" aria-hidden="true">⚠️</span>
+      <div class="alert-text">
+        <p class="alert-title">Fall Detected</p>
+        <p class="alert-subtitle">Detected at 3:42 PM &middot; Please check on them and use the buttons below if needed</p>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="identity-card">
+      <div class="avatar" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.5c-3.3 0-9.8 1.6-9.8 4.9v2.4h19.6v-2.4c0-3.3-6.5-4.9-9.8-4.9z"/>
+        </svg>
+      </div>
+      <div class="identity-info">
+        <h1>Tan Boon Huat</h1>
+        <p class="identity-meta">78 years old</p>
+        <p class="identity-meta">Wearable Unit #A7-042 &middot; STM32 B-L4S5I-IOT01A</p>
+      </div>
+    </section>
+
+    <section class="cta-row">
+      <a class="btn btn-emergency" href="tel:995">
+        <span class="btn-icon" aria-hidden="true">📞</span>
+        Call 995
+      </a>
+      <a class="btn btn-kin" href="tel:+6591234567">
+        <span class="btn-icon" aria-hidden="true">👪</span>
+        Call Next of Kin
+      </a>
+    </section>
+
+    <section class="card medical-card">
+      <h2>Medical Information</h2>
+      <ul class="info-list">
+        <li>
+          <span class="info-label">🩺 Conditions</span>
+          <span class="info-value">Hypertension, Type 2 Diabetes, Mild Osteoarthritis</span>
+        </li>
+        <li>
+          <span class="info-label">⚠️ Allergies</span>
+          <span class="info-value">Penicillin</span>
+        </li>
+        <li>
+          <span class="info-label">🩸 Blood Type</span>
+          <span class="info-value">O+</span>
+        </li>
+        <li>
+          <span class="info-label">💊 Medications</span>
+          <span class="info-value">Metformin, Amlodipine</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="card kin-card">
+      <h2>Next of Kin</h2>
+      <div class="contact">
+        <div class="contact-info">
+          <p class="contact-name">Tan Mei Ling <span class="contact-relation">(Daughter)</span></p>
+          <p class="contact-phone">+65 9123 4567</p>
+        </div>
+        <a class="btn-call" href="tel:+6591234567" aria-label="Call Tan Mei Ling">📞 Call</a>
+      </div>
+      <div class="contact">
+        <div class="contact-info">
+          <p class="contact-name">Tan Wei Jie <span class="contact-relation">(Son)</span></p>
+          <p class="contact-phone">+65 8234 5678</p>
+        </div>
+        <a class="btn-call" href="tel:+6582345678" aria-label="Call Tan Wei Jie">📞 Call</a>
+      </div>
+    </section>
+
+    <section class="card address-card">
+      <h2>Home Address</h2>
+      <p>Blk 456 Ang Mo Kio Ave 10, #08-123<br>Singapore 560456</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Demo page for a CG2028 Fall Detection Wearable project</p>
+  </footer>
+</body>
+</html>
