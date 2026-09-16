@@ -56,6 +56,10 @@ body {
   opacity: 0.9;
 }
 
+.alert-text {
+  flex: 1;
+}
+
 main {
   max-width: 480px;
   margin: 0 auto;
@@ -131,6 +135,10 @@ main {
   color: #fff;
 }
 
+.btn-icon {
+  font-size: 20px;
+}
+
 .card {
   background: var(--color-card-bg);
   border-radius: var(--radius);
@@ -191,6 +199,11 @@ main {
 .contact:last-child {
   border-bottom: none;
   padding-bottom: 0;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 0;
 }
 
 .contact-name {
