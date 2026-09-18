@@ -13,7 +13,12 @@
       <span class="alert-icon" aria-hidden="true">⚠️</span>
       <div class="alert-text">
         <p class="alert-title">Fall Detected</p>
-        <p class="alert-subtitle">Detected at 3:42 PM &middot; Please check on them and use the buttons below if needed</p>
+        <p class="alert-subtitle">Detected at <time id="timestamp"></time> &middot; Please check on them and use the buttons below if needed</p>
+        <script>
+          const now = new Date();
+          // Updates the HTML text with the localized time format
+          document.getElementById('timestamp').textContent = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: false });
+      </script>
       </div>
     </div>
   </div>
